@@ -20,11 +20,10 @@
 .btn {
   padding: 0.75rem 2rem;
   font-size: 10rem;
-  color: var(--clr-grayish-blue);
-  font-weight: 700;
+
   border-radius: 10px;
   text-transform: capitalize;
-  background-color: black;
+  background-color: rgb(241, 237, 237);
   border: 2px solid black;
   cursor: pointer;
 }
@@ -126,7 +125,15 @@ a {
   height: calc(75vh-5rem);
 }
 
-.hero-title {
+.card-container1 {
+  font-size: 400;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.hero-title,
+span {
   font-family: var(--head-txt);
   font-weight: 600;
   font-size: 3.5rem;
