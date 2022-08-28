@@ -28,6 +28,7 @@
   cursor: pointer;
 }
 .logo-container {
+  width: 10rem;
   align-items: flex-start;
 }
 .btn-white {
@@ -35,13 +36,20 @@
 
   border-radius: 5px;
 }
-
+.card-container2 {
+  color: var(--clr-white);
+  width: 70%;
+  align-items: center;
+}
 .btn-pink {
   background-color: var(--clr-pink);
 
   border-radius: 5px;
 }
-
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
 html {
   font-size: 18px;
 }
@@ -49,7 +57,7 @@ html {
 .section-center {
   padding: 3rem 0;
   width: 80%;
-  margin: auto;
+  margin: 30%;
 }
 .section-title {
   font-size: 2.2rem;
@@ -66,6 +74,30 @@ html {
   height: 0.5rem;
   background-color: var(--clr-main);
 }
+
+.full-footer {
+  display: flex;
+}
+
+.footer {
+  background-color: #08333e;
+  display: flex;
+  align-items: center;
+
+  justify-content: space;
+}
+
+.contact-link-conatiner,
+.contact-address,
+.list-item,
+.contact-phonenumber,
+.contact-mail {
+  color: var(--clr-very-dark-cyan);
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+}
 body {
   font-family: var(--ff-mont);
   background-color: var(--clr-white);
@@ -78,7 +110,8 @@ img {
 li {
   list-style: none;
 }
-
+.ul {
+}
 a {
   text-decoration: none;
 }
@@ -136,12 +169,11 @@ a {
 span {
   font-family: var(--head-txt);
   font-weight: 600;
-  font-size: 3.5rem;
 }
 
 .hero-title span {
   color: var(--clr-main);
-  font-weight: 900;
+  font-weight: 600;
   font-family: var(--ff-oleo);
   font-kerning: initial;
   line-height: 1.5rem;
